@@ -1,8 +1,8 @@
 <?php
 
 	// Mail settings
-	$to      = "web-master72@yandex.ru";
-	$subject = "Core Contact Form";
+	$to      = "martti.pankakoski@gmail.com";
+	$subject = "LABRA.IO CONTACT FORM";
 
 	// You can put here your email
 	$header = "From: noreply@neomax.com\r\n";
