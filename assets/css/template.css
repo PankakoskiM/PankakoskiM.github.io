@@ -1230,6 +1230,19 @@ select.form-control-sm:not([size]):not([multiple]) {
     margin: 0 0 0 -10px;
 }
 
+.pricing-price h6 {
+    font-size: 50px;
+    margin: 0 0 0 -10px;
+}
+
+.pricing-price h6 > span {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-right: 2px;
+}
+
 .pricing-price h5 > span {
     display: inline-block;
     vertical-align: top;
