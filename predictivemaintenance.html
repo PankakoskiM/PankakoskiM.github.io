@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>LABRA.AI</title>
+		<!-- Favicons-->
+		<link rel="shortcut icon" href="assets/images/favicon-labra.png">
+		<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+		<!-- Web Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Hind:400,700%7cLora:400i%7cPoppins:500,600,700" rel="stylesheet">
+		<!-- Bootstrap core CSS-->
+		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Plugins and Icon Fonts-->
+		<link href="assets/css/plugins.min.css" rel="stylesheet">
+		<!-- Template core CSS-->
+		<link href="assets/css/template.min.css" rel="stylesheet">
+	</head>
+	<body>
+
+		<!-- Layout-->
+		<div class="layout">
+
+			<!-- Header-->
+			<header class="header header-right">
+				<div class="container-fluid">
+
+
+					<div class="inner-header"><a class="header-right" href="index.html#projects"> BACK TO MAIN PAGE</a></div>
+			</header>
+			<!-- Header end-->
+
+			<!-- Wrapper-->
+			<div class="wrapper">
+
+				<!-- Page Header-->
+				<section class="module-header parallax bg-dark bg-dark-60" data-background="assets/images/financial.jpg">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<h1 class="h1 m-b-20">Predictive Maintenance</h1>
+								<p>Predicting breakdowns for a Finnish mid-size manufacturing company</p>
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Page Header end-->
+				<section class="module">
+					<div class="container">
+						<div class="row">
+				<div class="col-lg-4">
+					<div class="special-heading">
+						<h3>Summary</h3>
+					</div>
+					<p>Software for predicting breakdowns of a milling machine to avoid major breakdowns and increase output.</p>
+					<ul class="icon-list">
+						<li><span class="icon icon-basic-target"></span> <span><b>Objective </b></span> </li>
+						<li>Create an early warning system to avoid major breakdowns and increase output.</li><br>
+						<li><span class="icon icon-basic-server2"></span> <span><b>Training data </b></span> </li>
+						<li>Twenty labelled breakdowns, which was continued with active learning.</li><br>
+						<li><span class="icon icon-basic-lightbulb"></span> <span><b>Artificial Intelligence </b></span> </li>
+						<li>Measuring the distance between the current vibration sequence and previous normal sequences. </li><br>
+						<li><span class="icon icon-basic-bolt"></span> <span><b>Results</b></span> </li>
+						<li>TBA</li>
+					</ul>
+				</div>
+				<div class="col-lg-1">
+
+</div>
+				<!-- Blog-->
+							<div class="col-lg-7">
+								<!-- Post-->
+								<article class="post">
+									<!--.post-previewimg(src="assets/images/blog/1.jpg" alt="")
+									-->
+									<!--.post-header
+									h1.post-title
+										| Green Land Sport Season
+									ul.post-meta.h5
+										li August 18, 2016
+										li In <a href="#">Branding</a>, <a href="#">Design</a>
+										li <a href="#">3 Comments</a>
+									-->
+									<div class="post-content">
+										<h1 class="post-title">Increasing output and avoiding costly breakdowns</h1>
+										<p>Our client was having trouble milling metal components for their product due to the inconsistency of the metal and the variety of components they were milling. The condition of the milling machine's blades were impossible for the operators to know while the machine was milling.
+										Simultaneously operating the machine with spent blades could result in costly breakdowns of the milling machine or the component. </p>
+										<p>To avoid breakdowns the operators would listen to the machine and stop it when necessary to feel the condition of the blades. These manual checks of course
+									 decreased the output of the machine. If the operators had accurate and real-time information on the condition of the blades, they could plan their milling jobs better to increase throughput as well as avoid major breakdowns.</p>
+									 <p style="color:gray"><img src="assets/images/BW.jpg" width="100%" alt="" >The milling machine with a blade attached.</p>
+
+										<p>We were tasked with creating a system, which monitored the condition of the blades and sent an early warning to the operators. A vibration sensor and labelled breakdowns recorded by machine operators were used to test a proof of concept.
+										 The proof of concept was able to predict breakdowns with good accuracy, so the client assigned us to build an AI Tool with added features. </p>
+
+										 <p>We were to add an active learning component, where the operators could add future breakdowns at the press of a button
+									 which would be fed automatically into our algorithm as labelled data. This way the predictive maintenance system gets smarter over time wihout extra work or cost.</p>
+									 <p style="color:gray"><img src="assets/images/distance.jpg" width="100%" alt="" >Time on the x-axis and distance on the y-axis. This graph illustrates how the distance between sequences grows as the condition of the blades worsens. After 70 seconds the operator is alerted.</p>
+
+										<p>A machine vibrates differently when it it running normally to when there is something wrong with it. The predictive maintenance system works by measuring a distance between the current sequence and a normal sequence (no breakdown) for a particular blade.  By using the distance between the current sequence and normal sequence we
+										were able to create an early warning system. As the distance increases, so does the probability of a breakdown. Testing of the predictive maintenance will begin shortly.</p>
+									</div>
+								</article>
+								<!-- Post end-->
+
+
+
+						</div>
+					</div>
+				</section>
+				<!-- Blog end-->
+
+				<!-- Contact-->
+			<div id="contact" class="typeform-widget" data-url="https://marttipankakoski.typeform.com/to/a8yhBp" data-transparency="50" style="width: 100%; height: 750px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=a8yhBp&utm_source=typeform.com-12275984-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+				<!-- Contact-->
+
+				<!-- Footer-->
+				<footer class="footer" id="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-lg-3">
+								<!-- Text widget-->
+								<aside class="widget widget_text">
+									<div class="textwidget">
+										<!--<p><img src="assets/images/logo-light.png" width="100" alt=""></p>-->
+                                        <h3>LABRA.AI</h3>
+										<p>The Artificial Intelligence Consultancy </p>E-mail: <a href="mailto:martti.pankakoski@gmail.com">martti.pankakoski@labra.ai</a> <br/>
+										Phone: +358504950303 <br/>
+                                            <br/>
+<a href="https://www.instagram.com/labra.ai/" ><img src="assets/images/instagram.png" width="25" alt=""> &nbsp; Follow us on Instagram</a> <br/>
+<a href="https://twitter.com/LabraAi" ><img src="assets/images/twitter.png" width="25" alt=""> &nbsp; Follow us on Twitter</a>
+								</aside>
+							</div>
+							<div class="col-md-6 col-lg-3">
+								<!-- Recent entries widget-->
+
+							</div>
+							<div class="col-md-6 col-lg-3">
+								<!-- Twitter widget-->
+
+							</div>
+							<div class="col-md-6 col-lg-3">
+								<!-- Tags widget-->
+							</div>
+						</div>
+					</div>
+					<div class="footer-copyright">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="text-center"><span class="copyright">© 2018 LABRA.AI, All Rights Reserved. </span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<!-- Footer end-->
+
+
+
+
+				<a class="scroll-top" href="#top"><i class="fa fa-angle-up"></i></a>
+			</div>
+			<!-- Wrapper end-->
+
+		</div>
+		<!-- Layout end-->
+
+		<!-- Off canvas-->
+		<div class="off-canvas-sidebar">
+			<div class="off-canvas-sidebar-wrapper">
+				<div class="off-canvas-header"><a class="close-offcanvas" href="#"><span class="arrows arrows-arrows-remove"></span></a></div>
+				<div class="off-canvas-content">
+					<!-- Text widget-->
+					<aside class="widget widget_text">
+						<div class="textwidget">
+							<!-- <p class="text-center"><img src="assets/images/logo-light.png" width="100" alt=""></p>-->
+						</div>
+					</aside>
+					<!-- Text widget-->
+					<aside class="widget widget_text">
+						<div class="textwidget">
+							<p class="text-center"><img src="assets/images/offcanvas.jpg" alt=""></p>
+						</div>
+					</aside>
+					<!-- Navmenu widget-->
+					<aside class="widget widget_nav_menu">
+						<ul class="menu">
+							<li class="menu-item menu-item-has-children"><a href="#">Home</a></li>
+							<li class="menu-item"><a href="#">About Us</a></li>
+							<li class="menu-item"><a href="#">Services</a></li>
+							<li class="menu-item"><a href="#">Portfolio</a></li>
+							<li class="menu-item"><a href="#">Blog</a></li>
+							<li class="menu-item"><a href="#">Shortcodes</a></li>
+						</ul>
+					</aside>
+					<ul class="social-icons">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-vk"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Off canvas end-->
+
+		<!-- Scripts-->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA0rANX07hh6ASNKdBr4mZH0KZSqbHYc3Q"></script>
+		<script src="assets/js/plugins.min.js"></script>
+		<script src="assets/js/charts.js"></script>
+		<script src="assets/js/custom.min.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111174439-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-111174439-1');
+        </script>
+
+
+	</body>
+</html>
