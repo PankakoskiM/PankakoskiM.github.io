@@ -42,8 +42,8 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
-								<h1 class="h1 m-b-20">Predictive Maintenance</h1>
-								<p>Predicting breakdowns for a Finnish mid-size manufacturing company</p>
+								<h1 class="h1 m-b-20">Sentiment Analysis</h1>
+								<p>Predicting the sentiment of Yelp reviews</p>
 
 							</div>
 						</div>
@@ -57,16 +57,16 @@
 					<div class="special-heading">
 						<h3>Summary</h3>
 					</div>
-					<p>Software for predicting breakdowns of a milling machine to avoid major breakdowns and increase output.</p>
+					<p>Software for predicting the star rating of a Yelp review based on the text on the text</p>
 					<ul class="icon-list">
 						<li><span class="icon icon-basic-target"></span> <span><b>Objective </b></span> </li>
-						<li>Create an early warning system to avoid major breakdowns and increase output.</li><br>
+						<li>Create a multipurpose neural network for sentiment analysis which can be trained quickly to many use cases.</li><br>
 						<li><span class="icon icon-basic-server2"></span> <span><b>Training data </b></span> </li>
-						<li>Twenty labelled breakdowns, which was continued with active learning.</li><br>
+						<li>Thousands of Yelp reviews with star ratings.</li><br>
 						<li><span class="icon icon-basic-lightbulb"></span> <span><b>Artificial Intelligence </b></span> </li>
-						<li>Measuring the distance between the current vibration sequence and previous normal sequences. </li><br>
+						<li>A convolutional neural network of our own design.</li><br>
 						<li><span class="icon icon-basic-bolt"></span> <span><b>Results</b></span> </li>
-						<li>TBA</li>
+						<li>Correct prediction in 76% of cases. Mean absolute error 0.29.</li>
 					</ul>
 				</div>
 				<div class="col-lg-1">
@@ -87,24 +87,12 @@
 										li <a href="#">3 Comments</a>
 									-->
 									<div class="post-content">
-										<h1 class="post-title">Increasing output and avoiding costly breakdowns</h1>
-										<p>Our client was having trouble milling metal components for their product due to the inconsistency of the metal and the variety of components they were milling. The condition of the milling machine's blades were impossible for the operators to know while the machine was milling.
-										Simultaneously operating the machine with spent blades could result in costly breakdowns of the milling machine or the component. </p>
-										<p>To avoid breakdowns the operators would listen to the machine and stop it when necessary to feel the condition of the blades. These manual checks of course
-									 decreased the output of the machine. If the operators had accurate and real-time information on the condition of the blades, they could plan their milling jobs better to increase throughput as well as avoid major breakdowns.</p>
-									 <p style="color:gray"><img src="assets/images/BW.jpg" width="100%" alt="" >The milling machine with a blade attached.</p>
-
-										<p>We were tasked with creating a system, which monitored the condition of the blades and sent an early warning to the operators. A vibration sensor and labelled breakdowns recorded by machine operators were used to test a proof of concept.
-										 The proof of concept was able to predict breakdowns with good accuracy, so the client assigned us to build an AI Tool with added features. </p>
-
-										 <p>We were to add an active learning component, where the operators could add future breakdowns at the press of a button
-									 which would be fed automatically into our algorithm as labelled data. This way the predictive maintenance system gets smarter over time wihout extra work or cost.</p>
-									 <p style="color:gray"><img src="assets/images/distance.jpg" width="100%" alt="" >Time on the x-axis and distance on the y-axis. This graph illustrates how the distance between sequences grows as the condition of the blades worsens. After 70 seconds the operator is alerted.</p>
-
-										<p>A machine vibrates differently when it it running normally to when there is something wrong with it. The predictive maintenance system works by measuring a distance between the current sequence and a normal sequence (no breakdown) for a particular blade.  By using the distance between the current sequence and normal sequence we
-										were able to create an early warning system. As the distance increases, so does the probability of a breakdown. Testing of the predictive maintenance will begin shortly.</p>
-										<h3 class="inner-brand">LABRA.AI</h3>
-									</div>
+										<h1 class="post-title">Predicting the sentiment of users based on their text input</h1>
+										<p>A member of the Labra AI pool built a neural network for sentiment analysis, which could be rapidly trained for many use cases. The idea was that this neural network could be used to analyze for instance the happiness of customers calling a call call center or analyzing the risk of fraud in insurance claims.</p>
+										<p>The model was tested using Yelp reviews, where it would have to predict the star rating given by users based on the text input of their experience. Thousands of Yelp reviews each with the star rating as a label were used to train the model. </p>
+									 <p style="color:gray"><img src="assets/images/review.png" width="100%" alt="" >A 5-star review of Social Burgerjoint in Helsinki. Apparently they have good burgers.  </p>
+                 <p>The model works excellently in this use case as it achieves a 76% accuracy. The average absolute error is 0.29, which means that the correct answer is on average under one star away from the prediction. </p>
+                    <h3 class="inner-brand">LABRA.AI</h3>
 								</article>
 								<!-- Post end-->
 
@@ -114,7 +102,6 @@
 					</div>
 				</section>
 				<!-- Blog end-->
-
 
 
 				<!-- Footer-->

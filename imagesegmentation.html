@@ -42,8 +42,8 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
-								<h1 class="h1 m-b-20">Predictive Maintenance</h1>
-								<p>Predicting breakdowns for a Finnish mid-size manufacturing company</p>
+								<h1 class="h1 m-b-20">Image Segmentation</h1>
+								<p>Segmenting nuclei from microscope images</p>
 
 							</div>
 						</div>
@@ -57,16 +57,16 @@
 					<div class="special-heading">
 						<h3>Summary</h3>
 					</div>
-					<p>Software for predicting breakdowns of a milling machine to avoid major breakdowns and increase output.</p>
+					<p>Software for detecting, counting and segmenting nuclei from microscope images to increase the efficiency and accuracy of laboratories.</p>
 					<ul class="icon-list">
 						<li><span class="icon icon-basic-target"></span> <span><b>Objective </b></span> </li>
-						<li>Create an early warning system to avoid major breakdowns and increase output.</li><br>
+						<li>Create a system to automatically calculate and segment nuclei from microscope images.</li><br>
 						<li><span class="icon icon-basic-server2"></span> <span><b>Training data </b></span> </li>
-						<li>Twenty labelled breakdowns, which was continued with active learning.</li><br>
+						<li>Hundres of microscope images with segmented nuclei.</li><br>
 						<li><span class="icon icon-basic-lightbulb"></span> <span><b>Artificial Intelligence </b></span> </li>
-						<li>Measuring the distance between the current vibration sequence and previous normal sequences. </li><br>
+						<li>A state-of-the-art neural network used for image segmentation. </li><br>
 						<li><span class="icon icon-basic-bolt"></span> <span><b>Results</b></span> </li>
-						<li>TBA</li>
+						<li>Currently 85% accuracy. Research is ongoing.</li>
 					</ul>
 				</div>
 				<div class="col-lg-1">
@@ -87,24 +87,16 @@
 										li <a href="#">3 Comments</a>
 									-->
 									<div class="post-content">
-										<h1 class="post-title">Increasing output and avoiding costly breakdowns</h1>
-										<p>Our client was having trouble milling metal components for their product due to the inconsistency of the metal and the variety of components they were milling. The condition of the milling machine's blades were impossible for the operators to know while the machine was milling.
-										Simultaneously operating the machine with spent blades could result in costly breakdowns of the milling machine or the component. </p>
-										<p>To avoid breakdowns the operators would listen to the machine and stop it when necessary to feel the condition of the blades. These manual checks of course
-									 decreased the output of the machine. If the operators had accurate and real-time information on the condition of the blades, they could plan their milling jobs better to increase throughput as well as avoid major breakdowns.</p>
-									 <p style="color:gray"><img src="assets/images/BW.jpg" width="100%" alt="" >The milling machine with a blade attached.</p>
+										<h1 class="post-title">Increasing the efficiency and accuracy of laboratories</h1>
+										<p>A Finnish research laboratory wanted to automate the calculating and segmenting of nuclei from microscope images because the scientists were using precious time calculating them by hand. </p>
+										<p>Tens of images were taken daily, which all needed to be calculated by doctors and labratory technicians when they could have spent that time doing other tasks to advance their research. Additionally, many images were hard to calculate precisely because of the sheer number of nuclei and how they would sometimes overlap.</p>
+									 <p style="color:gray"><img src="assets/images/graymicroscope.jpg" width="100%" alt="" >One microscope image which needs to be calculated by hand.</p>
+                   <p>We used tens of labelled images gathered by the laboratory and hundreds more images from a labelled data set online. For the artificial intelligence we repurposed and retrained a recently released state-of-the-art neural network.</p>
+                 <p style="color:gray"><img src="assets/images/colormicroscope.jpg" width="100%" alt="" >The same microscope image after it has passed through the neural network. It also shows the probability of each nuclei being present.</p>
+                 <p>Currently our model segments 85% of the nuclei correctly. These early results are very good and at least on par with human performance, but the research and development is ongoing and more results will be published soon. </p>
 
-										<p>We were tasked with creating a system, which monitored the condition of the blades and sent an early warning to the operators. A vibration sensor and labelled breakdowns recorded by machine operators were used to test a proof of concept.
-										 The proof of concept was able to predict breakdowns with good accuracy, so the client assigned us to build an AI Tool with added features. </p>
 
-										 <p>We were to add an active learning component, where the operators could add future breakdowns at the press of a button
-									 which would be fed automatically into our algorithm as labelled data. This way the predictive maintenance system gets smarter over time wihout extra work or cost.</p>
-									 <p style="color:gray"><img src="assets/images/distance.jpg" width="100%" alt="" >Time on the x-axis and distance on the y-axis. This graph illustrates how the distance between sequences grows as the condition of the blades worsens. After 70 seconds the operator is alerted.</p>
-
-										<p>A machine vibrates differently when it it running normally to when there is something wrong with it. The predictive maintenance system works by measuring a distance between the current sequence and a normal sequence (no breakdown) for a particular blade.  By using the distance between the current sequence and normal sequence we
-										were able to create an early warning system. As the distance increases, so does the probability of a breakdown. Testing of the predictive maintenance will begin shortly.</p>
-										<h3 class="inner-brand">LABRA.AI</h3>
-									</div>
+                    <h3 class="inner-brand">LABRA.AI</h3>
 								</article>
 								<!-- Post end-->
 
@@ -114,7 +106,6 @@
 					</div>
 				</section>
 				<!-- Blog end-->
-
 
 
 				<!-- Footer-->
