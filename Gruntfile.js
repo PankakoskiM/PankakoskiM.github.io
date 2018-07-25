@@ -9,7 +9,7 @@ module.exports = function(grunt) {
           height: 768,
           minify: true
         },
-        src: '/Users/martti/Desktop/Labra/Github/PankakoskiM.github.io/index.html'
+        src: '/Users/martti/Desktop/Labra/Github/PankakoskiM.github.io/index.html',
         dest: '/Users/martti/Desktop/index.html'
       }
     }
