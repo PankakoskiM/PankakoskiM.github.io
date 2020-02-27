@@ -21,13 +21,13 @@ Version:     1.3
   margin: 0 auto; 
   visibility: hidden;
   /* Gives that scrolling effect as the typing happens */
-  -webkit-animation: typing2 3.4s steps(40, end) 1.1s forwards,
+  -webkit-animation: typing2 2.7s steps(40, end) 1.3s forwards,
   blink-caret .2s step-end infinite forwards; /* Safari 4+ */
-  -moz-animation:    typing2 3.4s steps(40, end) 1.1s forwards,
+  -moz-animation:    typing2 2.7s steps(40, end) 1.3s forwards,
   blink-caret .2s step-end infinite forwards forwards; /* Fx 5+ */
-  -o-animation:      typing2 3.4s steps(40, end) 1.1s forwards,
+  -o-animation:      typing2 2.7s steps(40, end) 1.3s forwards,
   blink-caret .2s step-end infinite forwards; /* Opera 12+ */
-  animation:         typing2 3.4s steps(40, end) 1.1s forwards,
+  animation:         typing2 2.7s steps(40, end) 1.3s forwards,
   blink-caret .2s step-end infinite forwards; /* IE 10+, Fx 29+ */
 }
 
@@ -76,13 +76,13 @@ Version:     1.3
     white-space: pre; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     visibility: hidden;
-    -webkit-animation: typing2 4.1s steps(58, end) 1.8s forwards,
+    -webkit-animation: typing2 3s steps(58, end) 2.2s forwards,
     blink-caret .2s step-end infinite; /* Safari 4+ */
-    -moz-animation:    typing2 4.1s steps(58, end) 1.8s forwards,
+    -moz-animation:    typing2 3s steps(58, end) 2.2s forwards,
     blink-caret .2s step-end infinite; /* Fx 5+ */
-    -o-animation:      typing2 4.1s steps(58, end) 1.8s forwards,
+    -o-animation:      typing2 3s steps(58, end) 2.2s forwards,
     blink-caret .2s step-end infinite; /* Opera 12+ */
-    animation:         typing2 4.1s steps(58, end) 1.8s forwards,
+    animation:         typing2 3s steps(58, end) 2.2s forwards,
     blink-caret .2s step-end infinite; /* IE 10+, Fx 29+ */
   }
   
