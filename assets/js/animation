@@ -1,0 +1,388 @@
+HTML:
+<div class="world">
+  <div class="room">
+    <div class="lantern">
+      <span><a>Camera <br> & lighting</a></span>
+      <span><a></a></span>
+      <span><a></a></span>
+    </div>
+    <div class="windows">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="tabletop"></div>
+    <div class="table"></div>
+
+    <div class="belt">
+
+      <div  class="sushiplate">
+        <span><div class="rice2"></div><div class="rice3"></div><div class="rice4"></div></span>
+        <span><div class="rice2"></div><div class="rice3"></div><div class="rice4"></div></span>
+        <span><div class="rice2"></div><div class="rice3"></div><div class="rice4"></div></span>
+        <span><div class="rice2"></div><div class="rice3"></div><div class="rice4"></div></span>
+        <span><div class="rice2"></div><div class="rice3"></div><div class="rice5"></div></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+CSS:
+body {
+  background-color:white;
+}
+.world {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 620px;
+  height: 400px;
+  background-color:#F5F5F5;
+  border-color:#B9B9B9;
+  border-width:2px;
+  transform: scale(1.1);
+}
+.bottomline {
+  position: absolute;
+  letter-spacing: 2px;
+  font-family: "verdana";
+  font-size: 14px;
+  text-align: right;
+  top: 410px;
+  width: 620px;
+  height: 40px;
+  z-index:99;
+  color: grey;
+}
+a {
+  position: relative;
+  letter-spacing: 2px;
+  font-family: "verdana";
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.room {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:white;
+  width: 620px;
+  height: 400px;
+  overflow:hidden;
+}
+.lantern span:after {
+    content:"";
+  position:absolute;
+  top:-6px;
+  left:10px;
+  width:40px;
+  height:6px;
+  z-index:3;
+  background-color:#808080;
+  
+}
+.lantern span {
+  content:"";
+  position:absolute;
+  top:30px;
+  left:-10px;
+  width:60px;
+  height:65px;
+  border-radius:10px;
+  z-index:2;  
+  background:radial-gradient(circle farthest-side at center center, rgb(253, 135, 63) 0%, rgb(235, 97, 54) 100%);
+}
+.lantern span:before {
+  content:"";
+  position:absolute;
+  top:-40px;
+  left:28px;
+  width:3px;
+  height:40px;
+  background-color:#808080;
+}
+.lantern span a {
+  color: #FFFFFF;
+  font-size:10px;
+  font-family:'Hind, lora, poppins Meiryo, sans-serif';
+  top:5px;
+  left:10px;
+  opacity:0.9;
+  text-align: center;
+}
+.lantern span:nth-child(1) {
+  left:100px;
+}
+
+.lantern span:nth-child(2) {
+  left:380px;
+}
+.lantern span:nth-child(3) {
+  left:520px;
+}
+
+.table {
+  position: absolute;
+  top: 280px;
+  left: -90px;
+  width: 800px;
+  height: 200px;
+  background: linear-gradient(180deg, rgba(59,47,42,1) 0%, rgba(82,69,61,1) 4%, rgba(150,134,119,1) 19%);
+}
+
+
+.belt {
+  position: absolute;
+  margin: auto;
+  top: 280px;
+  left: -90px;
+  width: 800px;
+  height: 20px;
+  background-color:#696969;
+}
+
+
+.sushiplate .rice {
+  position:absolute;
+  top:-7px;
+  left:10px;
+  width:35px;
+  height:15px;
+  border-radius:5px;
+  background-color:#d3d3d3;
+  }
+.sushiplate .rice:before {
+  content:"";
+  position:absolute;
+  top:-20px;
+  left:10px;
+  width:35px;
+  height:15px;
+  border-radius:5px;
+  background-color: #F8F8FF;
+}
+.rice2 {
+  position:absolute;
+  top:-12px;
+  left:0px;
+  width:16px;
+  height:16px;
+  border-radius:8px;
+  background-color:#F8F8FF;
+  border-style:solid;
+  border-color:#467C45;
+}
+.rice2:before {
+  content:"";
+  position:absolute;
+  top:2px;
+  left:2px;
+  width:12px;
+  height:12px;
+  border-radius:20px;
+  background-color:#EB8843;
+}
+.rice3 {
+  position:absolute;
+  top:-12px;
+  left:20px;
+  width:16px;
+  height:16px;
+  border-radius:8px;
+  background-color:#F8F8FF;
+  border-style:solid;
+  border-color:#467C45;
+}
+.rice3:before {
+  content:"";
+  position:absolute;
+  top:2px;
+  left:2px;
+  width:12px;
+  height:12px;
+  border-radius:20px;
+  background-color:#E15C00;
+}
+.rice4 {
+  position:absolute;
+  top:-12px;
+  left:40px;
+  width:16px;
+  height:16px;
+  border-radius:8px;
+  background-color:white;
+  border-style:solid;
+  border-color:#467C45;
+}
+.rice4:before {
+  content:"";
+  position:absolute;
+  top:2px;
+  left:2px;
+  width:12px;
+  height:12px;
+  border-radius:20px;
+  background-color:#2C5D3F;
+}
+.rice5 {
+  position:absolute;
+  top:-12px;
+  left:40px;
+  width:16px;
+  height:16px;
+  border-radius:8px;
+  background-color:white;
+  border-style:solid;
+  border-color:#467C45;
+}
+.rice5:before {
+  content:"";
+  position:absolute;
+  top:2px;
+  left:2px;
+  width:12px;
+  height:12px;
+  border-radius:20px;
+  background-color:#white;
+}
+.sushiplate .salmon {
+  position:absolute;
+  top:-10px;
+  left:4px;
+  width:48px;
+  height:8px;
+  border-radius:5px;
+  background-color:#FFBD47;
+  }
+.sushiplate .salmon:before {
+  content:"";
+  position:absolute;
+  top:0px;
+  left:10px;
+  width:48px;
+  height:8px;
+  border-radius:5px;
+  background-color:#FFA300;
+}
+.sushiplate .tuna {
+  position:absolute;
+  top:-10px;
+  left:10px;
+  width:48px;
+  height:8px;
+  border-radius:5px;
+  background-color:#CE5F50;
+  }
+.sushiplate .tuna:before {
+  content:"";
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:48px;
+  height:8px;
+  border-radius:5px;
+  background-color:#EC7A6A;
+}
+.sushiplate .seaweed {
+  position:absolute;
+  top:-12px;
+  left:29px;
+  width:20px;
+  height:20px;
+  z-index:2;
+  background-color:#91CC4F;
+}
+.sushiplate .seaweed3 {
+  position:absolute;
+  top:-12px;
+  left:35px;
+  width:8px;
+  height:20px;
+  z-index:2;
+  background-color:#1B641A;
+}
+.sushiplate .roe {
+  position:absolute;
+  top:-12px;
+  left:18px;
+  width:30px;
+  height:5px;
+  border-radius:5px 5px 0 0;
+  background-color:#FF7D0A;
+  }
+.sushiplate .seaweed2 {
+  position:absolute;
+  top:-5px;
+  left:15px;
+  width:35px;
+  height:10px;
+  z-index:5;
+  background-color:#1B641A;
+}
+.sushiplate .seaweed2:before{
+  content:"";
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:35px;
+  height:10px;
+  z-index:5;
+  background-color:#91CC4F;
+}
+.sushiplate span {
+  position:absolute;
+        border-top: 10px solid white;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 8px;
+      width: 65px;
+  top:-18px;
+  animation: move 20s linear infinite;
+}
+
+
+.sushiplate span:after {
+  content:"";
+  position:absolute;
+  height:8px;
+  width:65px;
+  background-color:black;
+  opacity: 0.50;
+  z-index: 1;
+  
+}
+.sushiplate span:nth-child(1) {
+    animation-delay: -16s;
+}
+.sushiplate span:nth-child(2) {
+    animation-delay: -12s;
+}
+.sushiplate span:nth-child(3) {
+    animation-delay: -8s;
+}
+.sushiplate span:nth-child(4) {
+    animation-delay: -4s;
+}
+.sushiplate span:nth-child(5) {
+    animation-delay: 0s;
+}
+
+@keyframes move {
+    from {
+        left: -20%;
+    }
+
+    to {
+        left: 100%;
+    }
+
+

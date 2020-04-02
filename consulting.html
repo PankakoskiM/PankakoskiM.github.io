@@ -11,21 +11,29 @@
     <link rel="shortcut icon" href="assets/images/favicon-labra.png">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Hind:400,700%7cLora:400i%7cPoppins:500,600,700" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link href="https://fonts.googleapis.com/css?family=Hind:400,700%7cLora:400i%7cPoppins:500,600,700" rel="stylesheet"></noscript>
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"></noscript>
-    <link href="assets/css/template.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link href="assets/css/template.min.css" rel="stylesheet"></noscript>
-    <script>!function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
-
-    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
-    <link href="https://fonts.googleapis.com/css?family=Hind:400,700%7cLora:400i%7cPoppins:500,600,700" rel="stylesheet">
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/plugins.min.css" rel="stylesheet">
+		<!-- Web Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Hind:400,700%7cLora:400i%7cPoppins:500,600,700" rel="stylesheet">
+		<!-- Bootstrap core CSS-->
+		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Plugins and Icon Fonts-->
+		<link href="assets/css/plugins.min.css" rel="stylesheet">
+		<!-- Template core CSS-->
     <link href="assets/css/template.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/custom.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111174439-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-111174439-1');
+
+    </script>
+
 
 <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
@@ -70,31 +78,283 @@
                   <section class="module-header full-height parallax bg-dark bg-dark-60 onepage-nav" data-jarallax-video="mp4:assets/video/cons_4sec_comp.mp4,webm:assets/video/cons_4sec_comp.webm,ogv:assets/video/cons_4sec_comp.ogv">
                     <div class="container">
                       <div class="row">
-                          <div class="col-md-7 m-auto  text-center ">
-                              <div class="text-center"><img style="width: 25%" src="assets/images/Labra_white.png" />
-                                <h3 class="text-center" style="line-height: 50px; padding-top: 15px; font-size: 50px">CONSULTING</h3>
-                                <p style="font-size: 17px; "></p>
-                                <p style="padding-top: 70px"><a class="nav-btn btn btn-circle btn-outline btn-lg onepage-nav btn-white wow fadeInDown" data-wow-delay="0.5s" href="#services">Learn more ></a>
-          
+                          <div style="padding-top: 15%" class="col-md-12 m-auto  text-center">
+                              <div class="text-center"><img style="width: 14%" src="assets/images/Labra_white.png" />
+                                <h3 class="text-center" style="line-height: 50px; padding-top: 15px; padding-bottom: 25px; font-size: 50px;">CONSULTING</h3>          
                               </div>
+                          </div>
+                          <div id="wrap">
+                              <div id="left">
+                                  <h3 style="line-height: 30px; color:white; display: flex; justify-content: center;">AI EXPERTISE</h3>
+                                  <p style="color: white; font-size: 16px; padding-top: 15px; padding-bottom: 15px;">Build AI applications with our stellar AI engineers working alongside your R&D team.</p>
+                                  <p style="display: flex; justify-content: center;"><a  class="nav-btn btn btn-circle btn-outline btn-lg onepage-nav btn-white wow fadeInDown" data-wow-delay="0.5s" href="#developers">Expertise</a>
+
+                              </div>
+                              <div id="right" >
+                                  <h3 style="line-height: 30px; color:white; display: flex; justify-content: center;">CUSTOM AI SOLUTIONS</h3>
+                                  <p style="color: white; font-size: 16px; padding-top: 15px; padding-bottom: 15px;">Let us manage development and build customized AI for your unique use case. </p>
+                                  <p style="display: flex; justify-content: center;"><a  class="nav-btn btn btn-circle btn-outline btn-lg onepage-nav btn-white wow fadeInDown" data-wow-delay="0.5s" href="#custom">	&nbsp;Project&nbsp;</a>
+
+                              </div>
+
                           </div>
                       </div>
                     </div>
                   </section>
 
-
-
-
-          <section class="module " id="services">
-
+                  <section class="module" id="developers">
 
                       <div class="container">
                       <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="module-title">
+                                <h2>Exceptional developers</h2>
+        
+                            </div>
+                            <div >
+                                 <p>We have several different engineer profiles available with various specialities to cover the whole development cycle from a raw idea to production AI. 
+                                   <br>
+                                   <br>
+                                  Our profiles cover for instance investing in AI, creating roadmaps, capturing and storing data, building proof-of-concepts, developing operational AI and building data pipelines.
+                                  <br>
+                                  <br>
+                                  Our engineers have taken the lead and successfully built image recognition, predictive maintenance and process prediction applications for demanding companies from various sectors. 
+
+
+                                  </p>
+                            </div>
+                          </div>
+                              <div class="col-md-6">
+                                <div style="padding-left: 25px" class="owl-carousel tms-carousel" data-carousel-options="{&quot;pagination&quot;:true, &quot;autoPlay&quot;: &quot;5000&quot;, &quot;items&quot;:&quot;1&quot;}">
+  
+                                  <div class="testimonials-card" >
+                                    <div class="testimonials-card-photo" style="padding-top: 45px"><img src="assets/images/hewsaw2.png" alt=""></div>
+                                    <div class="testimonials-card-content">
+                                      <p class="font-serif">Based on our experience we can recommend Labra AI as a partner for artificial intelligence applications.</p>
+                                    </div>
+                                    <div class="testimonials-card-author">
+                                      <h4>Tuomas Halttunen</h4>
+                                      <p>Vice President</p>
+                                    </div>
+                                  </div>
+                                  <div class="testimonials-card">
+                                    <div class="testimonials-card-photo" style="padding-top: 45px"><img src="assets/images/novatron2.png" alt=""></div>
+                                    <div class="testimonials-card-content">
+                                      <p class="font-serif">Working with Labra AI was a pleasure. Everything just worked and project was completed in promised schedule.</p>
+                                    </div>
+                                    <div class="testimonials-card-author">
+                                      <h4>Petri Moisio</h4>
+                                      <p>Chief Science Officer</p>
+                                    </div>
+                                  </div>
+                                  <div class="testimonials-card">
+                                    <div class="testimonials-card-photo" style="padding-top: 45px"><img src="assets/images/orfer2.png" alt=""></div>
+                                    <div class="testimonials-card-content">
+                                      <p class="font-serif">Labra AI executed the project expertly and achieved the set goals. We will be able to utilize the results in the future.</p>
+                                    </div>
+                                    <div class="testimonials-card-author">
+                                      <h4>Harri Vartiainen</h4>
+                                      <p>Automation IT Manager</p>
+                                    </div>
+                                  </div>
+                                  <div class="testimonials-card">
+                                    <div class="testimonials-card-photo" style="padding-top: 45px"><img src="assets/images/successclinic2.png" alt=""></div>
+                                    <div class="testimonials-card-content">
+                                      <p class="font-serif" >We can recommend Labra AI as a partner for artificial intelligence development.</p>
+                                    </div>
+                                    <div class="testimonials-card-author">
+                                      <h4>Mika Teikari</h4>
+                                      <p>Managing Director</p>
+                                    </div>
+                                  </div>
+                                  <div class="testimonials-card">
+                                    <div class="testimonials-card-photo" style="padding-top: 45px"><img src="assets/images/hewsaw2.png" alt=""></div>
+                                    <div class="testimonials-card-content">
+                                      <p class="font-serif" >The project in its entirety was a very positive IT project compared to other similar cases. </p>
+                                    </div>
+                                    <div class="testimonials-card-author">
+                                      <h4>Tuomas Halttunen</h4>
+                                      <p>Vice President</p>
+                                    </div>
+                                  </div>
+                                  <div class="testimonials-card">
+                                    <div class="testimonials-card-photo" style="padding-top: 45px"><img src="assets/images/novatron2.png" alt=""></div>
+                                    <div class="testimonials-card-content">
+                                      <p class="font-serif">Their capability to learn and identify essential problems from our domain and case was really magnificent.</p>
+                                    </div>
+                                    <div class="testimonials-card-author">
+                                      <h4>Petri Moisio</h4>
+                                      <p>Chief Science Officer</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="icon-box text-center">
+                                    <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/computervision.png" height="50px" width="50px" /></div>
+                                    <div class="icon-box-title">
+                                      <h6>COMPUTER VISION</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3">
+                                  <div class="icon-box text-center">
+                                      <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/nlp2.png" height="50px" width="50px" /></div>
+                                      <div class="icon-box-title">
+                                      <h6>NATURAL LANGUAGE PROCESSING</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3">
+                                  <div class="icon-box text-center">
+                                      <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/deeplearning.png" height="50px" width="50px" /></div>
+                                    <div class="icon-box-title">
+                                      <h6>DEEP LEARNING</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3">
+                                  <div class="icon-box text-center">
+                                      <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/machinelearning.png" height="50px" width="50px" /></div>
+                                    <div class="icon-box-title">
+                                      <h6>MACHINE LEARNING</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-9 m-auto text-center" style="padding-top: 30px; padding-bottom: 0px"><a class="btn btn-round btn-outline btn-lg btn-brand wow fadeInDown" data-wow-delay="0.1s" href="contact.html">Inquire about an AI Engineer ></a></div>
+
+        
+        </section>
+
+
+          <section class="module parallax bg-dark bg-dark-30" data-background="assets/images/loader.jpg">
+            <div class="container">
+              <div class="row">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+
+              </div>
+            </div>
+          </section>
+
+
+
+                      <section class="module" id="custom">
+                          <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                                <div class="module-title">
+                                    <h2>Proven solutions</h2>
+            
+                                </div>
+                                <div >
+                                     <p> Our custom solutions invariably achieve excellent results on our clients' use cases - some solutions are being made into publications and others are under patent review.
+                                       
+                                       <br>
+                                      <br>
+                                      Although our focus is in helping industrial companies, we are able to serve companies from all sectors since data and artificial intelligence are sector agnostic.
+                                      <br>
+                                      <br>
+                                      We start by asking our clients, if you could predict the future value of one variable in your business, what would it be?
+                                      </p>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div style="padding-left: 25px" class="owl-carousel tms-carousel" data-carousel-options="{&quot;pagination&quot;:true, &quot;autoPlay&quot;: &quot;5000&quot;, &quot;items&quot;:&quot;1&quot;}">
+                                    <div class="testimonials-card">
+                                      <div class="testimonials-card-photo" style="padding-top: 45px"><img src="assets/images/orfer2.png" alt=""></div>
+                                      <div class="testimonials-card-content">
+                                        <p class="font-serif">Labra AI executed the project expertly and achieved the set goals. We will be able to utilize the results in the future.</p>
+                                      </div>
+                                      <div class="testimonials-card-author">
+                                        <h4>Harri Vartiainen</h4>
+                                        <p>Automation IT Manager</p>
+                                      </div>
+                                    </div>
+                                    <div class="testimonials-card">
+                                      <div class="testimonials-card-photo" style="padding-top: 45px"><img src="assets/images/successclinic2.png" alt=""></div>
+                                      <div class="testimonials-card-content">
+                                        <p class="font-serif" >We can recommend Labra AI as a partner for artificial intelligence development.</p>
+                                      </div>
+                                      <div class="testimonials-card-author">
+                                        <h4>Mika Teikari</h4>
+                                        <p>Managing Director</p>
+                                      </div>
+                                    </div>
+                                    <div class="testimonials-card">
+                                      <div class="testimonials-card-photo" style="padding-top: 45px"><img src="assets/images/hewsaw2.png" alt=""></div>
+                                      <div class="testimonials-card-content">
+                                        <p class="font-serif" >The project in its entirety was a very positive IT project compared to other similar cases. </p>
+                                      </div>
+                                      <div class="testimonials-card-author">
+                                        <h4>Tuomas Halttunen</h4>
+                                        <p>Vice President</p>
+                                      </div>
+                                    </div>
+                                    <div class="testimonials-card">
+                                      <div class="testimonials-card-photo" style="padding-top: 45px"><img src="assets/images/novatron2.png" alt=""></div>
+                                      <div class="testimonials-card-content">
+                                        <p class="font-serif">Their capability to learn and identify essential problems from our domain and case was really magnificent.</p>
+                                      </div>
+                                      <div class="testimonials-card-author">
+                                        <h4>Petri Moisio</h4>
+                                        <p>Chief Science Officer</p>
+                                      </div>
+                                    </div>
+                                    <div class="testimonials-card">
+                                      <div class="testimonials-card-photo" style="padding-top: 45px"><img src="assets/images/hewsaw2.png" alt=""></div>
+                                      <div class="testimonials-card-content">
+                                        <p class="font-serif">Based on our experience we can recommend Labra AI as a partner for artificial intelligence applications.</p>
+                                      </div>
+                                      <div class="testimonials-card-author">
+                                        <h4>Tuomas Halttunen</h4>
+                                        <p>Vice President</p>
+                                      </div>
+                                    </div>
+                                    <div class="testimonials-card">
+                                      <div class="testimonials-card-photo" style="padding-top: 45px"><img src="assets/images/novatron2.png" alt=""></div>
+                                      <div class="testimonials-card-content">
+                                        <p class="font-serif">Working with Labra AI was a pleasure. Everything just worked and project was completed in promised schedule.</p>
+                                      </div>
+                                      <div class="testimonials-card-author">
+                                        <h4>Petri Moisio</h4>
+                                        <p>Chief Science Officer</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+            
+            
+                        </div>
+            
+                  </div>
+            
+            </section>
+
+          <section class="module p-0" id="services">
+
+
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-12 text-center m-auto module-title">
+                                  <h2  style="padding-bottom: 20px">Ideation to Production</h2>
+                              </div>
+                            </div>
+                      <div class="row">
                           <div class="col-md-9 m-auto text-center">
-                              <h2  style="line-height: 32px; font-weight: BOLD;">Roadmap</h2>
+                              <h3 style="line-height: 30px; font-weight: BOLD;">Roadmap</h3>
 
                                   <div class="col-md-9 m-auto text-center icon-box-title">
-                                    <h6 style="padding-bottom: 0px; font-weight:bold">1 -2 weeks</h6>
+                                    <h6 style="padding-bottom: 0px; font-weight:bold">1  week</h6>
                                     </div>
                               <div class="col-md-9 m-auto text-center">
                                   <p></p>
@@ -104,23 +364,23 @@
                                   </div>
                                   <div class="container">
                                   <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 icon-box">
                                       <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/feedback.png" height="50px" width="50px" /></div>
                                       <div class="icon-box-title text-center">
-                                        <h6 style=" padding-bottom: 50px; padding-top: 0px; font-size:14px" >EXCHANGE KNOWLEDGE</h6>
+                                        <h6 style=" padding-bottom: 50px; padding-top: 0px;" >EXCHANGE KNOWLEDGE</h6>
 
                                       </div>
                                       </div>
-                                      <div class="col-md-4">
+                                      <div class="col-md-4 icon-box">
                                       <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/light-bulb-3.png" height="50px" width="50px" /></div>
                                       <div class="icon-box-title text-center">
-                                        <h6 style=" padding-bottom: 50px; padding-top: 0px; font-size:14px" >IDENTIFY OPPORTUNITIES</h6>
+                                        <h6 style=" padding-bottom: 50px; padding-top: 0px;" >IDENTIFY OPPORTUNITIES</h6>
                                         </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 icon-box">
                                         <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/end.png" height="50px" width="50px" /></div>
                                         <div class="icon-box-title text-center">
-                                          <h6 style=" padding-bottom: 50px; padding-top: 0px; font-size:14px" >CREATE ROADMAP</h6>
+                                          <h6 style=" padding-bottom: 50px; padding-top: 0px;" >CREATE ROADMAP</h6>
                                           </div>
                                           </div>
                                       </div>
@@ -131,7 +391,7 @@
                           <div class="container">
                           <div class="row">
                               <div class="col-md-9 m-auto text-center">
-                                  <h2  style="line-height: 32px; font-weight: BOLD; padding-top: 50px">Solution</h2>
+                                  <h3 style="line-height: 30px; font-weight: BOLD;">Solution</h3>
                                   <div class="col-md-9 m-auto text-center icon-box-title">
                                         <h6 style="padding-bottom: 0px; font-weight:bold">4 -12 weeks</h6>
                                         </div>
@@ -143,22 +403,22 @@
                                       </div>
                                       <div class="container">
                                       <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 icon-box">
                                           <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/database-3.png" height="50px" width="50px" /></div>
                                           <div class="icon-box-title text-center">
-                                            <h6 style=" padding-bottom: 50px; padding-top: 0px; font-size:14px" >GATHER DATA</h6>
+                                            <h6 style=" padding-bottom: 50px; padding-top: 0px;" >GATHER DATA</h6>
                                           </div>
                                           </div>
-                                          <div class="col-md-4">
+                                          <div class="col-md-4 icon-box">
                                           <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/technology.png" height="50px" width="50px" /></div>
                                           <div class="icon-box-title text-center">
-                                            <h6 style=" padding-bottom: 50px; padding-top: 0px; font-size:14px" >DEVELOP PROOF-OF-CONCEPT</h6>
+                                            <h6 style=" padding-bottom: 50px; padding-top: 0px;" >DEVELOP PROOF-OF-CONCEPT</h6>
                                             </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-4 icon-box">
                                             <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/ai.png" height="50px" width="50px" /></div>
                                             <div class="icon-box-title text-center">
-                                              <h6 style=" padding-bottom: 50px; padding-top: 0px; font-size:14px" >BUILD AI SOLUTION</h6>
+                                              <h6 style=" padding-bottom: 50px; padding-top: 0px;" >BUILD AI SOLUTION</h6>
                                               </div>
                                               </div>
                                           </div>
@@ -169,7 +429,7 @@
                               <div class="container">
                               <div class="row">
                                   <div class="col-md-9 m-auto text-center">
-                                      <h2  style="line-height: 32px; font-weight: BOLD; padding-top: 50px">Integration</h2>
+                                      <h3 style="line-height: 30px; font-weight: BOLD;">Integration</h3>
                                       <div class="col-md-9 m-auto text-center icon-box-title">
                                             <h6 style="padding-bottom: 0px; font-weight:bold">Case-by-case</h6>
                                             </div>
@@ -181,22 +441,22 @@
                                           </div>
                                           <div class="container">
                                           <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-4 icon-box">
                                               <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/networking.png" height="50px" width="50px" /></div>
                                               <div class="icon-box-title text-center">
-                                                <h6 style=" padding-bottom: 50px; padding-top: 0px; font-size:14px" >BUILD DATA PIPELINE</h6>
+                                                <h6 style=" padding-bottom: 50px; padding-top: 0px;" >BUILD DATA PIPELINE</h6>
                                               </div>
                                               </div>
-                                              <div class="col-md-4">
+                                              <div class="col-md-4 icon-box">
                                               <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/idea-3.png" height="50px" width="50px" /></div>
                                               <div class="icon-box-title text-center">
-                                                <h6 style=" padding-bottom: 50px; padding-top: 0px; font-size:14px" >INTEGRATE AI SOLUTION</h6>
+                                                <h6 style=" padding-bottom: 50px; padding-top: 0px;" >INTEGRATE AI SOLUTION</h6>
                                                 </div>
                                                 </div>
-                                                <div class="col-md-4">
+                                                <div class="col-md-4 icon-box">
                                                 <div class="icon-box-icon text-center" style="padding-top: 0px"><img src="assets/images/maintenance.png" height="50px" width="50px" /></div>
                                                 <div class="icon-box-title text-center">
-                                                  <h6 style=" padding-bottom: 50px; padding-top: 0px; font-size:14px" >MAINTAIN AI SOLUTION</h6>
+                                                  <h6 style=" padding-bottom: 50px; padding-top: 0px;" >MAINTAIN AI SOLUTION</h6>
                                                   </div>
                                                   </div>
                                               </div>
@@ -206,79 +466,69 @@
 
 
                   </div>
-              <div class="col-md-9 m-auto text-center" style="padding-top: 20px"><a class="btn btn-round btn-outline btn-lg btn-brand wow fadeInDown" data-wow-delay="0.1s" href="contact.html">Book a meeting ></a></div>
+              <div class="col-md-9 m-auto text-center" style="padding-top: 30px; padding-bottom: 80px"><a class="btn btn-round btn-outline btn-lg btn-brand wow fadeInDown" data-wow-delay="0.1s" href="contact.html">Schedule a meeting ></a></div>
 
       </section>
 
 
 
 
-      <footer class="footer" id="footer">
+      <footer class="footer m-auto" id="footer">
           <div class="container">
               <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-4 col-lg-4">
                       <aside class="widget widget_text">
-                          <div class="textwidget">
-                              <a href="#"><img src="assets/images/labra_white.png" width="77"  alt=""></a>
+                          <div class="textwidget text-center">
                               <br/>
                               <br/>Otakaari 5
                               <br/>02150 Espoo
-                              <br/>
-                              <br/>
-                              <a href="mailto:info@labra.ai">info@labra.ai</a>
-                              <br>+358504950303
+
+
                       </div>
 
                   </div>
+
+                  <div class="col-md-4 col-lg-4" >
+                      <aside class="widget widget_text" >
+                          <div class="textwidget text-center">
+                              <a href="#"><img src="assets/images/labra_white.png" width="125"  alt=""></a>
+                              <br/>
+                              <br/>
+                              <a href="https://www.instagram.com/labra.ai/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+                              &nbsp;
+                              &nbsp;
+                              <a href="https://www.youtube.com/channel/UCgvI3MvzFT8Zpd074HHjMvQ"><i class="fab fa-youtube fa-2x"></i></a>
+                              &nbsp;
+                              &nbsp;
+                              <a href="https://twitter.com/labraai?lang=en"><i class="fab fa-twitter-square fa-2x"></i></a>
+                              &nbsp;
+                              &nbsp;
+                              <a href="https://www.linkedin.com/company/labra-ai/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+
+                      </div>
+
+                  </div>
+
+                  <div class="col-md-4 col-lg-4">
+                      <aside class="widget widget_text">
+                          <div class="textwidget text-center">
+                              <br/>
+                              <br/>
+                              <a href="mailto:info@labra.ai">info@labra.ai</a>
+                              <br/>+358504950303
+
+
+                      </div>
+
+                  </div>
+
+              <div class="footer-copyright col-md-12 col-lg-12">
+
+                              <div class="text-center"><span class="copyright text-center">© 2020 LABRA.AI, All Rights Reserved. </span></div>
+
               </div>
-              <div class="footer-copyright">
+          </footer>
 
-                              <div class="text-center"><span class="copyright">© 2020 LABRA.AI, All Rights Reserved. </span></div>
-
-              </div>
-          </footer></div>
-
-
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-  <script src="assets/js/plugins.min.js"></script>
-  <script src="assets/js/charts.js"></script>
-  <script src="assets/js/custom.min.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111174439-1"></script>
-  <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-          dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'UA-111174439-1');
-  </script>
-</body>
-
-</html>
-
-
-
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-    <script src="assets/js/plugins.min.js"></script>
-    <script src="assets/js/charts.js"></script>
-    <script src="assets/js/custom.min.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111174439-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-111174439-1');
-    </script>
 </body>
 
 </html>
