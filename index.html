@@ -49,9 +49,13 @@
   </script>
    <script> (function(){ window.ldfdr = window.ldfdr || {}; (function(d, s, ss, fs){ fs = d.getElementsByTagName(s)[0]; function ce(src){ var cs = d.createElement(s); cs.src = src; setTimeout(function(){fs.parentNode.insertBefore(cs,fs)}, 1); } ce(ss); })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_JMvZ8g1pXo142pOd.js'); })(); </script>
    
-<style>
-  .fa,.fab,.fal,.far,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}.fa-2x{font-size:2em}.fa-instagram:before{content:"\f16d"}.fa-twitter-square:before{content:"\f081"}.fa-youtube:before{content:"\f167"}.fab{font-family:"Font Awesome 5 Brands"}.fa-linkedin-in:before{content:"\f0e1"}
-</style>
+<!-- Lozad - Lazy loader -->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+   <script type="text/javascript">
+   const observer = lozad(); // lazy loads elements with default selector as ".lozad"
+  observer.observe();
+   </script>
 
 </head>
 
@@ -150,7 +154,7 @@
 
           </section>
 
-          <section class="module parallax bg-dark bg-dark-90" data-background="assets/images/loader_mid_opt.jpg">
+          <section class="module parallax bg-dark bg-dark-90 lozad" data-background="assets/images/loader_mid_opt2.jpg">
             <div class="container">
               <div class="row">
                   <div class="col-md-12 text-center">
